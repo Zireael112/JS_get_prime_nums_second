@@ -12,7 +12,7 @@ function getPrimeNums(n) {
           numbers.push(i)
       }
   }
-  return console.log(numbers)
+  return numbers
 }
 
-getPrimeNums(process.argv[2])
+console.log(getPrimeNums(process.argv[2]));
